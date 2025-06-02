@@ -8,7 +8,7 @@
 #include <map>
 
 std::map<int64_t, std::string> userStates; //Структура для отслеживания состояний пользователя
-std::map<int64_t, std::string> tempData; //Для хранения названия дома, растения и т.п.
+std::map<int64_t, std::string> tempData; //Для хранения названий дома, растения и т.п.
 
 void sendMainMenu(const TgBot::Bot& bot, int64_t chatId) {
     TgBot::ReplyKeyboardMarkup::Ptr keyboard(new TgBot::ReplyKeyboardMarkup);
